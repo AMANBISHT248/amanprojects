@@ -1,0 +1,51 @@
+.navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar::before {
+    height: 123px;
+}
+
+.instalogo {
+    display: flex;
+    position: absolute;
+    left: 9px;
+    bottom: 50px;
+}
+
+.instalogo img {
+    height: 27px;
+}
+
+#first {
+    margin: 0px;
+}
+
+#first::before {
+    height: 442px;
+}
+
+.box {
+    margin: 15px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    padding: 0px;
+    border-radius: 8%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#orderlist {
+    flex-direction: column;
+}
+
+#client {
+    overflow: hidden;
+}
